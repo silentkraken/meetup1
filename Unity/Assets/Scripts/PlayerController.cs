@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour {
     Vector3 pos = transform.position;
     if (Input.GetKeyDown(KeyCode.UpArrow)) {
       pos.z += movementSpeed;
+      DifficultyManager d = Managers.Get<DifficultyManager>();
+      d.SpawnEnemy();
     }
     if (Input.GetKeyDown(KeyCode.DownArrow)) {
       pos.z -= movementSpeed;
