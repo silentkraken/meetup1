@@ -42,7 +42,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1090b98bccb167549a42e4765bebbd05, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -73,10 +73,10 @@ MonoBehaviour:
   bulletDir: {x: 1, y: 0, z: 0}
   clipRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 10000
-    height: 10000
+    x: -10
+    y: -10
+    width: 20
+    height: 20
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
