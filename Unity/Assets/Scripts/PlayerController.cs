@@ -13,12 +13,12 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
     Vector3 pos = transform.position;
-    if (Input.GetKeyDown(KeyCode.UpArrow)) {
+    if (Input.GetKey(KeyCode.UpArrow)) {
       pos.z += movementSpeed;
      // DifficultyManager d = Managers.Get<DifficultyManager>();
      // d.SpawnEnemy();
     }
-    if (Input.GetKeyDown(KeyCode.DownArrow)) {
+    if (Input.GetKey(KeyCode.DownArrow)) {
       pos.z -= movementSpeed;
     }
     transform.position = pos;
